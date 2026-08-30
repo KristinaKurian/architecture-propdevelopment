@@ -1,9 +1,303 @@
-<mxfile host="app.diagrams.net" modified="2026-08-28T10:40:00.000Z" agent="Mozilla/5.0" version="24.7.17">
+<mxfile host="Electron" agent="Mozilla/5.0">
   <diagram id="propdevelopment-security" name="Task1">
-    <mxGraphModel dx="2200" dy="1200" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2800" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="5677" dy="941" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4300" pageHeight="2100" math="0" shadow="0">
       <root>
-        <mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="2" value="Безопасность данных" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=18;" vertex="1" parent="1"><mxGeometry x="800" y="500" width="220" height="80" as="geometry"/></mxCell><mxCell id="3" value="Публичные данные" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=15;" vertex="1" parent="1"><mxGeometry x="250" y="120" width="240" height="60" as="geometry"/></mxCell><mxCell id="5" value="&lt;b&gt;Примеры данных&lt;/b&gt;&lt;br&gt;Каталог недвижимости&lt;br&gt;Цены&lt;br&gt;Фотографии&lt;br&gt;Характеристики квартир&lt;br&gt;Информация о ЖК&lt;br&gt;Публичные акции" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" vertex="1" parent="1"><mxGeometry x="250" y="210" width="260" height="170" as="geometry"/></mxCell><mxCell id="7" value="Утечка — Незначительный" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" vertex="1" parent="1"><mxGeometry x="20" y="80" width="260" height="55" as="geometry"/></mxCell><mxCell id="9" value="Данные изначально предназначены для публичного распространения." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;" vertex="1" parent="1"><mxGeometry x="310" y="80" width="330" height="70" as="geometry"/></mxCell><mxCell id="11" value="Потеря — Значительный" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;" vertex="1" parent="1"><mxGeometry x="20" y="195" width="260" height="55" as="geometry"/></mxCell><mxCell id="13" value="Может нарушиться работа витрины и процесс продаж." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;" vertex="1" parent="1"><mxGeometry x="310" y="195" width="330" height="70" as="geometry"/></mxCell><mxCell id="15" value="Искажение — Значительный" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;" vertex="1" parent="1"><mxGeometry x="20" y="310" width="260" height="55" as="geometry"/></mxCell><mxCell id="17" value="Неверная цена или характеристики могут привести к финансовым и репутационным потерям." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;" vertex="1" parent="1"><mxGeometry x="310" y="310" width="330" height="70" as="geometry"/></mxCell><mxCell id="19" value="Некачественные данные — Значительный" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;" vertex="1" parent="1"><mxGeometry x="20" y="425" width="260" height="55" as="geometry"/></mxCell><mxCell id="21" value="Клиент может принять решение на основании ошибочной информации." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;" vertex="1" parent="1"><mxGeometry x="310" y="425" width="330" height="70" as="geometry"/></mxCell><mxCell id="23" value="Обесценивание — Значительный" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;" vertex="1" parent="1"><mxGeometry x="20" y="540" width="260" height="55" as="geometry"/></mxCell><mxCell id="25" value="Устаревшие цены и статусы объектов теряют бизнес-ценность." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;" vertex="1" parent="1"><mxGeometry x="310" y="540" width="330" height="70" as="geometry"/></mxCell><mxCell id="27" value="Внутренние данные" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=15;" vertex="1" parent="1"><mxGeometry x="250" y="800" width="240" height="60" as="geometry"/></mxCell><mxCell id="29" value="&lt;b&gt;Примеры данных&lt;/b&gt;&lt;br&gt;Архитектурные схемы&lt;br&gt;Документация&lt;br&gt;API-контракты&lt;br&gt;Бизнес-процессы&lt;br&gt;Внутренние отчёты&lt;br&gt;Обезличенный мониторинг" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" vertex="1" parent="1"><mxGeometry x="250" y="580" width="260" height="170" as="geometry"/></mxCell><mxCell id="31" value="Утечка — Значительный" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;" vertex="1" parent="1"><mxGeometry x="20" y="760" width="260" height="55" as="geometry"/></mxCell><mxCell id="33" value="Внутренняя информация может помочь злоумышленнику исследовать инфраструктуру." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;" vertex="1" parent="1"><mxGeometry x="310" y="760" width="330" height="70" as="geometry"/></mxCell><mxCell id="35" value="Потеря — Значительный" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;" vertex="1" parent="1"><mxGeometry x="20" y="875" width="260" height="55" as="geometry"/></mxCell><mxCell id="37" value="Усложнится разработка, эксплуатация и восстановление систем." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;" vertex="1" parent="1"><mxGeometry x="310" y="875" width="330" height="70" as="geometry"/></mxCell><mxCell id="39" value="Искажение — Значительный" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;" vertex="1" parent="1"><mxGeometry x="20" y="990" width="260" height="55" as="geometry"/></mxCell><mxCell id="41" value="Ошибочная документация приводит к неправильным изменениям систем." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;" vertex="1" parent="1"><mxGeometry x="310" y="990" width="330" height="70" as="geometry"/></mxCell><mxCell id="43" value="Некачественные данные — Значительный" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;" vertex="1" parent="1"><mxGeometry x="20" y="1105" width="260" height="55" as="geometry"/></mxCell><mxCell id="45" value="Команды могут принимать решения на основании неправильной информации." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;" vertex="1" parent="1"><mxGeometry x="310" y="1105" width="330" height="70" as="geometry"/></mxCell><mxCell id="47" value="Обесценивание — Значительный" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;" vertex="1" parent="1"><mxGeometry x="20" y="1220" width="260" height="55" as="geometry"/></mxCell><mxCell id="49" value="Устаревшая документация перестаёт отражать реальную архитектуру." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;" vertex="1" parent="1"><mxGeometry x="310" y="1220" width="330" height="70" as="geometry"/></mxCell><mxCell id="51" value="Конфиденциальные данные" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=15;" vertex="1" parent="1"><mxGeometry x="1350" y="120" width="240" height="60" as="geometry"/></mxCell><mxCell id="53" value="&lt;b&gt;Примеры данных&lt;/b&gt;&lt;br&gt;Ф. И. О.&lt;br&gt;Телефон&lt;br&gt;Email&lt;br&gt;Данные CRM&lt;br&gt;Данные собственников&lt;br&gt;Бронирования&lt;br&gt;Результаты осмотров&lt;br&gt;Данные онлайн-сделок&lt;br&gt;Документы клиентов&lt;br&gt;Данные ЖКУ&lt;br&gt;История платежей&lt;br&gt;Данные партнёров" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" vertex="1" parent="1"><mxGeometry x="1350" y="210" width="260" height="170" as="geometry"/></mxCell><mxCell id="55" value="Утечка — Критический" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;" vertex="1" parent="1"><mxGeometry x="1660" y="80" width="260" height="55" as="geometry"/></mxCell><mxCell id="57" value="Возможна утечка персональных, финансовых и имущественных данных." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;" vertex="1" parent="1"><mxGeometry x="1980" y="80" width="330" height="70" as="geometry"/></mxCell><mxCell id="59" value="Потеря — Критический" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;" vertex="1" parent="1"><mxGeometry x="1660" y="195" width="260" height="55" as="geometry"/></mxCell><mxCell id="61" value="Будут нарушены процессы продаж, сделок и обслуживания собственников." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;" vertex="1" parent="1"><mxGeometry x="1980" y="195" width="330" height="70" as="geometry"/></mxCell><mxCell id="63" value="Искажение — Критический" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;" vertex="1" parent="1"><mxGeometry x="1660" y="310" width="260" height="55" as="geometry"/></mxCell><mxCell id="65" value="Изменение информации о сделке, собственности или платеже может привести к юридическим и финансовым последствиям." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;" vertex="1" parent="1"><mxGeometry x="1980" y="310" width="330" height="70" as="geometry"/></mxCell><mxCell id="67" value="Некачественные данные — Критический" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;" vertex="1" parent="1"><mxGeometry x="1660" y="425" width="260" height="55" as="geometry"/></mxCell><mxCell id="69" value="Уже существуют случаи отображения одному клиенту данных другого клиента." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;" vertex="1" parent="1"><mxGeometry x="1980" y="425" width="330" height="70" as="geometry"/></mxCell><mxCell id="71" value="Обесценивание — Значительный" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;" vertex="1" parent="1"><mxGeometry x="1660" y="540" width="260" height="55" as="geometry"/></mxCell><mxCell id="73" value="Устаревшие данные снижают качество аналитики и будущих ML/AI-сервисов." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;" vertex="1" parent="1"><mxGeometry x="1980" y="540" width="330" height="70" as="geometry"/></mxCell><mxCell id="75" value="Секретные данные" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=15;" vertex="1" parent="1"><mxGeometry x="1350" y="800" width="240" height="60" as="geometry"/></mxCell><mxCell id="77" value="&lt;b&gt;Примеры данных&lt;/b&gt;&lt;br&gt;Пароли&lt;br&gt;API keys&lt;br&gt;Access tokens&lt;br&gt;Service credentials&lt;br&gt;Ключи шифрования&lt;br&gt;Private keys&lt;br&gt;Сертификаты&lt;br&gt;Credentials гос. систем&lt;br&gt;Credentials партнёров&lt;br&gt;CI/CD secrets&lt;br&gt;Backup encryption keys&lt;br&gt;Отчёты об уязвимостях" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" vertex="1" parent="1"><mxGeometry x="1350" y="580" width="260" height="170" as="geometry"/></mxCell><mxCell id="79" value="Утечка — Критический" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;" vertex="1" parent="1"><mxGeometry x="1660" y="760" width="260" height="55" as="geometry"/></mxCell><mxCell id="81" value="Позволяет получить несанкционированный доступ к системам и данным." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;" vertex="1" parent="1"><mxGeometry x="1980" y="760" width="330" height="70" as="geometry"/></mxCell><mxCell id="83" value="Потеря — Критический" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;" vertex="1" parent="1"><mxGeometry x="1660" y="875" width="260" height="55" as="geometry"/></mxCell><mxCell id="85" value="Может привести к недоступности сервисов или невозможности восстановить данные." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;" vertex="1" parent="1"><mxGeometry x="1980" y="875" width="330" height="70" as="geometry"/></mxCell><mxCell id="87" value="Искажение — Критический" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;" vertex="1" parent="1"><mxGeometry x="1660" y="990" width="260" height="55" as="geometry"/></mxCell><mxCell id="89" value="Подмена security-данных позволяет нарушить механизмы защиты." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;" vertex="1" parent="1"><mxGeometry x="1980" y="990" width="330" height="70" as="geometry"/></mxCell><mxCell id="91" value="Некачественные данные — Критический" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;" vertex="1" parent="1"><mxGeometry x="1660" y="1105" width="260" height="55" as="geometry"/></mxCell><mxCell id="93" value="Неверные права и security-конфигурации создают уязвимости." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;" vertex="1" parent="1"><mxGeometry x="1980" y="1105" width="330" height="70" as="geometry"/></mxCell><mxCell id="95" value="Обесценивание — Значительный" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;" vertex="1" parent="1"><mxGeometry x="1660" y="1220" width="260" height="55" as="geometry"/></mxCell><mxCell id="97" value="Истёкшие сертификаты и устаревшие credentials могут привести к отказам или компрометации." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;" vertex="1" parent="1"><mxGeometry x="1980" y="1220" width="330" height="70" as="geometry"/></mxCell>
-        <mxCell id="4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;" edge="1" parent="1" source="2" target="3"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="3" target="5"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="3" target="7"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="7" target="9"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="3" target="11"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="11" target="13"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="3" target="15"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="15" target="17"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="3" target="19"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="19" target="21"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="3" target="23"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="23" target="25"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;" edge="1" parent="1" source="2" target="27"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="27" target="29"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="27" target="31"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="31" target="33"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="27" target="35"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="35" target="37"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="27" target="39"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="39" target="41"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="27" target="43"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="43" target="45"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="27" target="47"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="47" target="49"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;" edge="1" parent="1" source="2" target="51"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="51" target="53"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="51" target="55"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="55" target="57"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="51" target="59"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="59" target="61"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="51" target="63"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="63" target="65"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="51" target="67"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="67" target="69"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="51" target="71"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="71" target="73"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;" edge="1" parent="1" source="2" target="75"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="75" target="77"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="75" target="79"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="79" target="81"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="75" target="83"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="83" target="85"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="75" target="87"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="87" target="89"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="75" target="91"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="91" target="93"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="75" target="95"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="95" target="97"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=24;" value="Безопасность данных" vertex="1">
+          <mxGeometry height="120" width="320" x="1760" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=20;" value="Публичные данные" vertex="1">
+          <mxGeometry height="85" width="330" x="1260" y="207.5" as="geometry" />
+        </mxCell>
+        <mxCell id="5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=17;" value="&lt;b&gt;Примеры данных&lt;/b&gt;&lt;br&gt;Каталог недвижимости&lt;br&gt;Цены&lt;br&gt;Фотографии&lt;br&gt;Характеристики квартир&lt;br&gt;Информация о ЖК&lt;br&gt;Публичные акции" vertex="1">
+          <mxGeometry height="240" width="390" x="800" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;" value="Утечка — Незначительный" vertex="1">
+          <mxGeometry height="72" width="310" x="150" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=15;" value="Данные изначально предназначены для публичного распространения." vertex="1">
+          <mxGeometry height="100" width="350" x="-320" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=16;" value="Потеря — Значительный" vertex="1">
+          <mxGeometry height="72" width="310" x="150" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=15;" value="Массовая потеря данных каталога может сделать витрину недоступной и остановить часть процесса продаж." vertex="1">
+          <mxGeometry height="100" width="350" x="-320" y="186" as="geometry" />
+        </mxCell>
+        <mxCell id="15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=16;" value="Искажение — Значительный" vertex="1">
+          <mxGeometry height="72" width="310" x="150" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=15;" value="Неверная цена или характеристики могут привести к финансовым и репутационным потерям." vertex="1">
+          <mxGeometry height="100" width="350" x="-320" y="346" as="geometry" />
+        </mxCell>
+        <mxCell id="19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=16;" value="Некачественные данные — Значительный" vertex="1">
+          <mxGeometry height="72" width="310" x="150" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=15;" value="Клиент может принять решение на основании ошибочной информации." vertex="1">
+          <mxGeometry height="100" width="350" x="-320" y="506" as="geometry" />
+        </mxCell>
+        <mxCell id="23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=16;" value="Обесценивание — Значительный" vertex="1">
+          <mxGeometry height="72" width="310" x="150" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=15;" value="Устаревшие цены и статусы объектов теряют бизнес-ценность." vertex="1">
+          <mxGeometry height="100" width="350" x="-320" y="666" as="geometry" />
+        </mxCell>
+        <mxCell id="27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=20;" value="Внутренние данные" vertex="1">
+          <mxGeometry height="85" width="330" x="1250" y="1320" as="geometry" />
+        </mxCell>
+        <mxCell id="29" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=17;" value="&lt;b&gt;Примеры данных&lt;/b&gt;&lt;br&gt;Данные проведения онлайн-туров&lt;br&gt;Данные менеджеров продаж&lt;br&gt;API-контракты&lt;br&gt;Процессы проведения&lt;br&gt;Внутренние отчёты&lt;br&gt;Обезличенный мониторинг" vertex="1">
+          <mxGeometry height="280" width="390" x="790" y="1222.5" as="geometry" />
+        </mxCell>
+        <mxCell id="31" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=16;" value="Утечка — Значительный" vertex="1">
+          <mxGeometry height="72" width="310" x="230" y="1140" as="geometry" />
+        </mxCell>
+        <mxCell id="33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=15;" value="Внутренняя информация может раскрыть особенности процессов и интеграций компании." vertex="1">
+          <mxGeometry height="100" width="350" x="-250" y="1126" as="geometry" />
+        </mxCell>
+        <mxCell id="35" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=16;" value="Потеря — Значительный" vertex="1">
+          <mxGeometry height="72" width="310" x="230" y="1300" as="geometry" />
+        </mxCell>
+        <mxCell id="37" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=15;" value="Потеря внутренних данных затруднит работу продуктовых и операционных команд." vertex="1">
+          <mxGeometry height="100" width="350" x="-250" y="1286" as="geometry" />
+        </mxCell>
+        <mxCell id="39" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=16;" value="Искажение — Значительный" vertex="1">
+          <mxGeometry height="72" width="310" x="230" y="1460" as="geometry" />
+        </mxCell>
+        <mxCell id="41" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=15;" value="Некорректные внутренние данные могут привести к ошибкам в процессах и интеграциях." vertex="1">
+          <mxGeometry height="100" width="350" x="-250" y="1446" as="geometry" />
+        </mxCell>
+        <mxCell id="43" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=16;" value="Некачественные данные — Значительный" vertex="1">
+          <mxGeometry height="72" width="310" x="230" y="1620" as="geometry" />
+        </mxCell>
+        <mxCell id="45" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=15;" value="Команды могут принимать решения на основании неполной или ошибочной информации." vertex="1">
+          <mxGeometry height="100" width="350" x="-250" y="1606" as="geometry" />
+        </mxCell>
+        <mxCell id="47" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=16;" value="Обесценивание — Значительный" vertex="1">
+          <mxGeometry height="72" width="310" x="230" y="1780" as="geometry" />
+        </mxCell>
+        <mxCell id="49" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=15;" value="Устаревшие внутренние данные и отчёты перестают отражать реальное состояние процессов." vertex="1">
+          <mxGeometry height="100" width="350" x="-250" y="1766" as="geometry" />
+        </mxCell>
+        <mxCell id="51" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=20;" value="Конфиденциальные данные" vertex="1">
+          <mxGeometry height="85" width="330" x="2260" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="53" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=17;" value="&lt;b&gt;Примеры данных&lt;/b&gt;&lt;br&gt;Ф. И. О.&lt;br&gt;Телефон&lt;br&gt;Email&lt;br&gt;Данные CRM&lt;br&gt;Данные собственников&lt;br&gt;Бронирования&lt;br&gt;Результаты осмотров&lt;br&gt;Данные онлайн-сделок&lt;br&gt;Документы клиентов&lt;br&gt;Данные ЖКУ&lt;br&gt;История платежей&lt;br&gt;Данные партнёров" vertex="1">
+          <mxGeometry height="340" width="390" x="2660" y="52.5" as="geometry" />
+        </mxCell>
+        <mxCell id="55" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=16;" value="Утечка — Критический" vertex="1">
+          <mxGeometry height="72" width="310" x="3410" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="57" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=15;" value="Возможна утечка персональных, финансовых и имущественных данных." vertex="1">
+          <mxGeometry height="100" width="350" x="3860" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="59" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=16;" value="Потеря — Критический" vertex="1">
+          <mxGeometry height="72" width="310" x="3410" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="61" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=15;" value="Будут нарушены процессы продаж, сделок и обслуживания собственников." vertex="1">
+          <mxGeometry height="100" width="350" x="3860" y="186" as="geometry" />
+        </mxCell>
+        <mxCell id="63" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=16;" value="Искажение — Критический" vertex="1">
+          <mxGeometry height="72" width="310" x="3410" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="65" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=15;" value="Изменение информации о сделке, собственности или платеже может привести к юридическим и финансовым последствиям." vertex="1">
+          <mxGeometry height="100" width="350" x="3860" y="346" as="geometry" />
+        </mxCell>
+        <mxCell id="67" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=16;" value="Некачественные данные — Критический" vertex="1">
+          <mxGeometry height="72" width="310" x="3410" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="69" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=15;" value="Уже существуют случаи отображения одному клиенту данных другого клиента." vertex="1">
+          <mxGeometry height="100" width="350" x="3860" y="506" as="geometry" />
+        </mxCell>
+        <mxCell id="71" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=16;" value="Обесценивание — Значительный" vertex="1">
+          <mxGeometry height="72" width="310" x="3410" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="73" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=15;" value="Устаревшие данные снижают качество аналитики и будущих ML/AI-сервисов." vertex="1">
+          <mxGeometry height="100" width="350" x="3860" y="666" as="geometry" />
+        </mxCell>
+        <mxCell id="75" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=20;" value="Секретные данные" vertex="1">
+          <mxGeometry height="85" width="330" x="2260" y="1320" as="geometry" />
+        </mxCell>
+        <mxCell id="77" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=17;" value="&lt;b&gt;Примеры данных&lt;/b&gt;&lt;br&gt;Пароли и учётные данные&lt;br&gt;API keys&lt;br&gt;Access / service tokens&lt;br&gt;Ключи шифрования&lt;br&gt;Приватные ключи и сертификаты&lt;br&gt;Credentials гос. систем&lt;br&gt;Credentials партнёров&lt;br&gt;Административные учётные данные&lt;br&gt;Информация о критических уязвимостях" vertex="1">
+          <mxGeometry height="360" width="390" x="2700" y="1182.5" as="geometry" />
+        </mxCell>
+        <mxCell id="79" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=16;" value="Утечка — Критический" vertex="1">
+          <mxGeometry height="72" width="310" x="3440" y="1140" as="geometry" />
+        </mxCell>
+        <mxCell id="81" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=15;" value="Позволяет получить несанкционированный доступ к системам и данным." vertex="1">
+          <mxGeometry height="100" width="350" x="3910" y="1126" as="geometry" />
+        </mxCell>
+        <mxCell id="83" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=16;" value="Потеря — Критический" vertex="1">
+          <mxGeometry height="72" width="310" x="3440" y="1300" as="geometry" />
+        </mxCell>
+        <mxCell id="85" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=15;" value="Может привести к недоступности сервисов или невозможности восстановить данные." vertex="1">
+          <mxGeometry height="100" width="350" x="3910" y="1286" as="geometry" />
+        </mxCell>
+        <mxCell id="87" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=16;" value="Искажение — Критический" vertex="1">
+          <mxGeometry height="72" width="310" x="3440" y="1460" as="geometry" />
+        </mxCell>
+        <mxCell id="89" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=15;" value="Подмена ключей, токенов или сертификатов может нарушить механизмы защиты и доверия." vertex="1">
+          <mxGeometry height="100" width="350" x="3910" y="1446" as="geometry" />
+        </mxCell>
+        <mxCell id="91" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=16;" value="Некачественные данные — Критический" vertex="1">
+          <mxGeometry height="72" width="310" x="3440" y="1620" as="geometry" />
+        </mxCell>
+        <mxCell id="93" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=15;" value="Некорректные или неактуальные credentials, ключи и сертификаты могут привести к отказу интеграций либо нарушению механизмов защиты." vertex="1">
+          <mxGeometry height="100" width="350" x="3910" y="1606" as="geometry" />
+        </mxCell>
+        <mxCell id="95" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=16;" value="Обесценивание — Значительный" vertex="1">
+          <mxGeometry height="72" width="310" x="3440" y="1780" as="geometry" />
+        </mxCell>
+        <mxCell id="97" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=15;" value="Истёкшие сертификаты и устаревшие credentials могут привести к отказам или компрометации." vertex="1">
+          <mxGeometry height="100" width="350" x="3910" y="1766" as="geometry" />
+        </mxCell>
+        <mxCell id="99" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;fontSize=16;" value="&lt;b&gt;Оценка риска&lt;/b&gt;&lt;br&gt;🟢 Незначительный&lt;br&gt;🟠 Значительный&lt;br&gt;🔴 Критический" vertex="1">
+          <mxGeometry height="150" width="420" x="1710" y="1010" as="geometry" />
+        </mxCell>
+        <mxCell id="4" edge="1" parent="1" source="2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeWidth=2;" target="3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6" edge="1" parent="1" source="3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2;" target="5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8" edge="1" parent="1" source="5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="10" edge="1" parent="1" source="7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2;" target="9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="12" edge="1" parent="1" source="5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2;" target="11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="14" edge="1" parent="1" source="11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2;" target="13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="16" edge="1" parent="1" source="5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2;" target="15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="18" edge="1" parent="1" source="15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2;" target="17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="20" edge="1" parent="1" source="5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="22" edge="1" parent="1" source="19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2;" target="21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="24" edge="1" parent="1" source="5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="26" edge="1" parent="1" source="23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2;" target="25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="28" edge="1" parent="1" source="2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeWidth=2;" target="27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="30" edge="1" parent="1" source="27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2;" target="29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="32" edge="1" parent="1" source="29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="34" edge="1" parent="1" source="31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2;" target="33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="36" edge="1" parent="1" source="29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2;" target="35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="38" edge="1" parent="1" source="35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2;" target="37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="40" edge="1" parent="1" source="29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2;" target="39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="42" edge="1" parent="1" source="39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2;" target="41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="44" edge="1" parent="1" source="29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="46" edge="1" parent="1" source="43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2;" target="45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="48" edge="1" parent="1" source="29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="50" edge="1" parent="1" source="47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2;" target="49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="52" edge="1" parent="1" source="2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeWidth=2;" target="51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="54" edge="1" parent="1" source="51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2;" target="53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="56" edge="1" parent="1" source="53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2;" target="55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="58" edge="1" parent="1" source="55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2;" target="57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="60" edge="1" parent="1" source="53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2;" target="59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="62" edge="1" parent="1" source="59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2;" target="61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="64" edge="1" parent="1" source="53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2;" target="63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="66" edge="1" parent="1" source="63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2;" target="65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="68" edge="1" parent="1" source="53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="70" edge="1" parent="1" source="67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2;" target="69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="72" edge="1" parent="1" source="53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="74" edge="1" parent="1" source="71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2;" target="73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="76" edge="1" parent="1" source="2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeWidth=2;" target="75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="78" edge="1" parent="1" source="75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2;" target="77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="80" edge="1" parent="1" source="77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2;" target="79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="82" edge="1" parent="1" source="79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2;" target="81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="84" edge="1" parent="1" source="77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2;" target="83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="86" edge="1" parent="1" source="83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2;" target="85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="88" edge="1" parent="1" source="77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2;" target="87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="90" edge="1" parent="1" source="87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2;" target="89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="92" edge="1" parent="1" source="77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="94" edge="1" parent="1" source="91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2;" target="93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="96" edge="1" parent="1" source="77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="98" edge="1" parent="1" source="95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeWidth=2;" target="97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
