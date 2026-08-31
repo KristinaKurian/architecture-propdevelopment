@@ -1,0 +1,55 @@
+<mxfile host="Electron">
+  <diagram id="context" name="C4 Context">
+    <mxGraphModel dx="3277" dy="940" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1900" pageHeight="1150" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fontSize=16;fontStyle=1;" value="Собственник / жилец&lt;div&gt;Использует текущее мобильное приложение для управления доступом&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="70" x="220" y="325" as="geometry" />
+        </mxCell>
+        <mxCell id="3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fontSize=16;fontStyle=1;" value="Посетитель / водитель&lt;div&gt;Взаимодействует с домофоном или шлагбаумом&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="55" x="1350" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1168BD;strokeColor=#0B4884;fontColor=#ffffff;fontSize=16;fontStyle=1;" value="PropDevelopment — сервисы для собственников Мобильное приложение и backend ЖКУ. Управление правами доступа к дому, квартире и парковке." vertex="1">
+          <mxGeometry height="220" width="470" x="730" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#999999;strokeColor=#666666;fontColor=#ffffff;fontSize=15;fontStyle=1;" value="Платформа партнёра «Умный дом» Распознавание лиц и автомобильных номеров, управление устройствами, события и видеосессии." vertex="1">
+          <mxGeometry height="220" width="460" x="2050" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#999999;strokeColor=#666666;fontColor=#ffffff;fontSize=15;fontStyle=1;" value="Системы управляющих компаний Существующие услуги ЖКУ и данные о доме" vertex="1">
+          <mxGeometry height="150" width="390" x="770" y="950" as="geometry" />
+        </mxCell>
+        <mxCell id="7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B3B3B3;strokeColor=#777777;fontColor=#222222;fontSize=14;fontStyle=1;" value="Интеллектуальный домофон&lt;div&gt;Звонок, видео, ручное открытие, распознавание лица&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="390" x="1750" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B3B3B3;strokeColor=#777777;fontColor=#222222;fontSize=14;fontStyle=1;" value="Интеллектуальный шлагбаум&lt;div&gt;Ручное открытие, распознавание номерного знака&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="390" x="2080" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="9" edge="1" parent="1" source="2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeWidth=2;" target="4" value="Использует мобильное приложение">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="10" edge="1" parent="1" source="4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeWidth=2;" target="5" value="Управление доступом, команды, регистрация профилей HTTPS API">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="11" edge="1" parent="1" source="5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeWidth=2;" target="4" value="Статусы, события, webhooks">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="12" edge="1" parent="1" source="4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeWidth=2;" target="6" value="Существующие функции ЖКУ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="13" edge="1" parent="1" source="5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeWidth=2;" target="7" value="Управляет и получает события">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="14" edge="1" parent="1" source="5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeWidth=2;" target="8" value="Управляет и получает события">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="15" edge="1" parent="1" source="3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeWidth=2;" target="7" value="Звонок / вход по лицу">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="16" edge="1" parent="1" source="3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeWidth=2;" target="8" value="Номер автомобиля">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
