@@ -1,11 +1,11 @@
 <mxfile host="Electron">
   <diagram id="container" name="C4 Container">
-    <mxGraphModel dx="6154" dy="3649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3400" pageHeight="1800" math="0" shadow="0">
+    <mxGraphModel dx="5007" dy="2878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3400" pageHeight="1800" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fontSize=16;fontStyle=1;" value="Собственник / жилец" vertex="1">
-          <mxGeometry height="110" width="140" x="65" y="110" as="geometry" />
+          <mxGeometry height="110" width="140" x="-430" y="345" as="geometry" />
         </mxCell>
         <mxCell id="3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#1168BD;dashed=1;fontColor=#1168BD;fontSize=18;fontStyle=1;verticalAlign=top;align=left;spacingTop=10;spacingLeft=10;" value="PropDevelopment" vertex="1">
           <mxGeometry height="1650" width="2380" x="300" y="40" as="geometry" />
@@ -14,28 +14,28 @@
           <mxGeometry height="650" width="680" x="350" y="110" as="geometry" />
         </mxCell>
         <mxCell id="5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#438DD5;strokeColor=#0B4884;fontColor=#ffffff;fontSize=14;fontStyle=1;" value="Витрина продаж [Web application]" vertex="1">
-          <mxGeometry height="105" width="260" x="390" y="180" as="geometry" />
+          <mxGeometry height="105" width="260" x="390" y="210" as="geometry" />
         </mxCell>
         <mxCell id="6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#438DD5;strokeColor=#0B4884;fontColor=#ffffff;fontSize=14;fontStyle=1;" value="client-tour-app [Application]" vertex="1">
           <mxGeometry height="105" width="260" x="700" y="180" as="geometry" />
         </mxCell>
         <mxCell id="7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#438DD5;strokeColor=#0B4884;fontColor=#ffffff;fontSize=14;fontStyle=1;" value="client-mart-app [Application]" vertex="1">
-          <mxGeometry height="105" width="260" x="390" y="340" as="geometry" />
+          <mxGeometry height="105" width="260" x="390" y="540" as="geometry" />
         </mxCell>
         <mxCell id="8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#438DD5;strokeColor=#0B4884;fontColor=#ffffff;fontSize=14;fontStyle=1;" value="client-crm-app [Application]" vertex="1">
           <mxGeometry height="105" width="260" x="700" y="340" as="geometry" />
         </mxCell>
         <mxCell id="9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#438DD5;strokeColor=#0B4884;fontColor=#ffffff;fontSize=14;fontStyle=1;" value="client-mart-estate-app [Application]" vertex="1">
-          <mxGeometry height="105" width="260" x="390" y="500" as="geometry" />
+          <mxGeometry height="105" width="260" x="390" y="420" as="geometry" />
         </mxCell>
         <mxCell id="10" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;fillColor=#85BBF0;strokeColor=#0B4884;fontSize=13;" value="БД приложений продаж [Database]" vertex="1">
-          <mxGeometry height="105" width="260" x="700" y="500" as="geometry" />
+          <mxGeometry height="105" width="260" x="720" y="610" as="geometry" />
         </mxCell>
         <mxCell id="11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#1168BD;dashed=1;fontColor=#1168BD;fontSize=18;fontStyle=1;verticalAlign=top;align=left;spacingTop=10;spacingLeft=10;" value="Домен ЖКУ и сервисов собственников" vertex="1">
           <mxGeometry height="880" width="1510" x="1080" y="110" as="geometry" />
         </mxCell>
         <mxCell id="12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#438DD5;strokeColor=#0B4884;fontColor=#ffffff;fontSize=14;fontStyle=1;" value="Мобильное приложение собственника [Mobile application] ЖКУ + новый раздел «Умный дом»" vertex="1">
-          <mxGeometry height="130" width="350" x="1430" y="790" as="geometry" />
+          <mxGeometry height="130" width="350" x="1090" y="425" as="geometry" />
         </mxCell>
         <mxCell id="13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#438DD5;strokeColor=#0B4884;fontColor=#ffffff;fontSize=14;fontStyle=1;" value="tenant-core-app [Application] Бизнес-функции для собственников" vertex="1">
           <mxGeometry height="130" width="330" x="1535" y="155" as="geometry" />
@@ -47,7 +47,7 @@
           <mxGeometry height="130" width="350" x="1110" y="-200" as="geometry" />
         </mxCell>
         <mxCell id="16" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;fillColor=#85BBF0;strokeColor=#0B4884;fontSize=13;" value="CRM DB [Database]" vertex="1">
-          <mxGeometry height="115" width="350" x="1120" y="580" as="geometry" />
+          <mxGeometry height="115" width="350" x="1650" y="800" as="geometry" />
         </mxCell>
         <mxCell id="17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2E7D32;strokeColor=#1B5E20;fontColor=#ffffff;fontSize=14;fontStyle=1;" value="API / Integration Gateway [NEW] Единые политики внешних API: mTLS, OAuth2, rate limit, schema validation, audit" vertex="1">
           <mxGeometry height="165" width="450" x="1530" y="390" as="geometry" />
@@ -98,7 +98,7 @@
           <mxGeometry height="130" width="420" x="1485" y="-270" as="geometry" />
         </mxCell>
         <mxCell id="33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#999999;strokeColor=#666666;fontColor=#ffffff;fontSize=15;fontStyle=1;" value="Государственные системы [External Systems] Этапы онлайн-сделки" vertex="1">
-          <mxGeometry height="130" width="430" x="-190" y="760" as="geometry" />
+          <mxGeometry height="130" width="430" x="-230" y="680" as="geometry" />
         </mxCell>
         <mxCell id="34" edge="1" parent="1" source="2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeWidth=2;" target="28" value="HTTPS">
           <mxGeometry relative="1" as="geometry" />
