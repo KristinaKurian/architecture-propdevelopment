@@ -1,9 +1,6 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# Учебный скрипт для macOS + Minikube.
-# Создаёт X.509 client certificates и kubeconfig contexts.
-
 PROFILE="${MINIKUBE_PROFILE:-propdevelopment}"
 OUTPUT_DIR="${OUTPUT_DIR:-./users}"
 CERT_DAYS="${CERT_DAYS:-365}"
