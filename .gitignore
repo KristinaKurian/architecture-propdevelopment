@@ -11,6 +11,7 @@
 *.bkp
 # Test binary, built with `go test -c`
 *.test
+users/
 
 # Code coverage profiles and other test artifacts
 *.out
