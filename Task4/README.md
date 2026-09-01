@@ -1,31 +1,11 @@
-# Task4 — запуск на macOS
+# Task4 — Защита доступа к кластеру Kubernetes
 
-## 1. Установка
-
-Если Docker Desktop не установлен:
-
-```bash
-brew install --cask docker
-open -a Docker
-```
-
-Установить инструменты:
-
-```bash
-brew install minikube kubectl openssl
-```
-
-## 2. Поднять пустой Minikube
+## Установка 
 
 ```bash
 minikube start -p propdevelopment --driver=docker
 kubectl config use-context propdevelopment
 kubectl get nodes
-```
-
-## 3. Выполнить скрипты
-
-```bash
 cd Task4
 chmod +x 01-create-users.sh 02-create-roles.sh 03-bind-users-to-roles.sh
 ./01-create-users.sh
@@ -33,7 +13,7 @@ chmod +x 01-create-users.sh 02-create-roles.sh 03-bind-users-to-roles.sh
 ./03-bind-users-to-roles.sh
 ```
 
-## 4. Проверить RBAC
+## Проверка RBAC
 
 ### Viewer
 
