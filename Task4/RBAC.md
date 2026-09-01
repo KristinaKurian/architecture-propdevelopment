@@ -35,5 +35,3 @@
 | `utilities-devops` | `propdevelopment:utilities-configurators` | DevOps домена ЖКУ/Smart Home |
 | `security-auditor` | `propdevelopment:security-auditors` | Специалист ИБ, кластерный аудит и просмотр Secrets |
 | `platform-admin` | `propdevelopment:cluster-admins` | Полный администратор кластера |
-
-> Для учебного Minikube используются X.509 client certificates. В production предпочтительна интеграция Kubernetes с корпоративным IdP через OIDC и централизованное управление группами.
