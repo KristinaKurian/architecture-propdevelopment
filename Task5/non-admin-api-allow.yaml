@@ -1,0 +1,199 @@
+# Запрещаем входящий и исходящий трафик для всех pods.
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+
+metadata:
+  name: default-deny-all
+  namespace: task5
+
+spec:
+  podSelector: {}
+  policyTypes:
+    - Ingress
+    - Egress
+
+
+---
+
+# Разрешаем только DNS:
+#   UDP/53
+#   TCP/53
+
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+
+metadata:
+  name: allow-dns
+  namespace: task5
+
+spec:
+  podSelector: {}
+  policyTypes:
+    - Egress
+  egress:
+
+    - to:
+        - namespaceSelector:
+            matchLabels:
+              kubernetes.io/metadata.name: kube-system
+
+          podSelector:
+            matchLabels:
+              k8s-app: kube-dns
+      ports:
+
+        - protocol: UDP
+          port: 53
+
+        - protocol: TCP
+          port: 53
+
+
+---
+
+# Разрешает взаимодействие между:
+#   front-end <--------> back-end-api
+
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+
+metadata:
+  name: non-admin-api-allow
+  namespace: task5
+
+spec:
+  podSelector:
+
+    matchExpressions:
+
+      - key: role
+        operator: In
+        values:
+          - front-end
+          - back-end-api
+  policyTypes:
+    - Ingress
+    - Egress
+
+
+  # Разрешаем направления:
+  #
+  #   front-end      -> back-end-api
+  #   back-end-api   -> front-end
+
+  ingress:
+
+    - from:
+
+        - podSelector:
+
+            matchExpressions:
+
+              - key: role
+                operator: In
+                values:
+                  - front-end
+                  - back-end-api
+
+      ports:
+
+        - protocol: TCP
+          port: 80
+
+
+  # Разрешаем исходящий TCP/80 только к pods обычного контура.
+
+  egress:
+
+    - to:
+
+        - podSelector:
+
+            matchExpressions:
+
+              - key: role
+                operator: In
+                values:
+                  - front-end
+                  - back-end-api
+
+      ports:
+
+        - protocol: TCP
+          port: 80
+
+
+---
+
+# Разрешаем взаимодействие между:
+#
+#   admin-front-end <--------> admin-back-end-api
+
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+
+metadata:
+  name: admin-api-allow
+  namespace: task5
+
+spec:
+  podSelector:
+
+    matchExpressions:
+
+      - key: role
+        operator: In
+        values:
+          - admin-front-end
+          - admin-back-end-api
+
+  policyTypes:
+    - Ingress
+    - Egress
+
+
+  # Разрешаем направления:
+  #
+  #   admin-front-end      -> admin-back-end-api
+  #   admin-back-end-api   -> admin-front-end
+  ingress:
+
+    - from:
+
+        - podSelector:
+
+            matchExpressions:
+
+              - key: role
+                operator: In
+                values:
+                  - admin-front-end
+                  - admin-back-end-api
+
+      ports:
+
+        - protocol: TCP
+          port: 80
+
+
+  # Разрешаем admin-сервисам отправлять TCP/80 только
+  # другим pods административного контура.
+
+  egress:
+
+    - to:
+
+        - podSelector:
+
+            matchExpressions:
+
+              - key: role
+                operator: In
+                values:
+                  - admin-front-end
+                  - admin-back-end-api
+
+      ports:
+
+        - protocol: TCP
+          port: 80
